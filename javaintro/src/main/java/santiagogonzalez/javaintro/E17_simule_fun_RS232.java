@@ -18,7 +18,6 @@ public class E17_simule_fun_RS232 {
                 fde = false;
             } 
         }   while (fde == false);
-        
     }
 }
 /* Realizar un programa que simule el funcionamiento de un dispositivo RS232, este
