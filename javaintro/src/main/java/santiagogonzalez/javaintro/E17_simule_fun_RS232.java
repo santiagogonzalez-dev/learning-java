@@ -5,8 +5,10 @@ import java.util.Scanner;
 public class E17_simule_fun_RS232 {
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in).useDelimiter("\n"); // Leer
-        String frase = null; // Inicializo la variable
         boolean fde = false; // Inicializo como false para que funcione el while
+        String frase = null; // Inicializo esta cadena asi no queda como local del loop
+        int correctas = 0; // Contador
+        int incorrectas = 0; // Contador
 
         do { System.out.println("Dé una frase de 5 caracteres que empieze con X y termine con O");
             frase = reader.nextLine(); // Leemos la frase
@@ -16,8 +18,17 @@ public class E17_simule_fun_RS232 {
                 fde = true;
             } else {
                 fde = false;
+		if ((frase.length() == 5) && (frase.substring(0, 1).equals("X")) && (frase.substring(4, 5).equals("O"))) {
+			++correctas;
+		} else {
+			++incorrectas;
+		}
             } 
         }   while (fde == false);
+
+	System.out.println("Correctas: " + correctas);
+	System.out.println("Incorrectas: " + incorrectas);
+	// csj
     }
 }
 /* Realizar un programa que simule el funcionamiento de un dispositivo RS232, este
