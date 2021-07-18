@@ -2,7 +2,7 @@ package santiagogonzalez.javaintro;
 
 import java.util.Scanner;
 
-public class E15_echo_profes {
+public class E15_hecho_profes {
 
     public static void main(String[] args) {
         double num1;
