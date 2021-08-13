@@ -1,14 +1,14 @@
-package Ejercicio_4;
+package ejercicio_4;
 
 public class Rectangulo {
     private double base;
     private double altura;
 
     // vacio
-    public Rectangula() {
+    public Rectangulo() {
     }
     // Constructor por parámetros
-    public Rectangulo() {
+    public Rectangulo(double base, double altura) {
         this.base = base;
         this.altura = altura;
     }
@@ -24,11 +24,11 @@ public class Rectangulo {
 
     // Getter for base
     public double getBase(double base) {
-        return base
+        return base;
     }
     // Getter for altura
     public double getAltura(double altura) {
-        return altura
+        return altura;
     }
 
 }
