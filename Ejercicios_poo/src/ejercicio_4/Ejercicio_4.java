@@ -2,6 +2,9 @@ package ejercicio_4;
 
 public class Ejercicio_4 {
 	public static void main(String[] args) {
+		RectanguloServicio rs1 = new RectanguloServicio(); // Intancio el objeto
+
+		rs1.crearRectangulo();
 	}
 }
 /* Crear una clase Rectángulo que modele rectángulos por medio de un atributo
@@ -12,3 +15,9 @@ public class Ejercicio_4 {
  * rectángulo mediante asteriscos usando la base y la altura. Se deberán además definir
  * los métodos getters, setters y constructores correspondientes.
  * Superficie = base * altura / Perímetro = (base + altura) * 2. */
+
+// Tengo que mantener solo dos atributos, base y altura
+// De ahí en más tengo que calcular desde mi clase servicio usando getters y setters
+// como calcular la superficie y perímetro tal y como me dijeron Ana y Gabriel
+//
+// Metodo es void
