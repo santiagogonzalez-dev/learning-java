@@ -27,8 +27,9 @@ public class PerroServicio {
 		} while (confirmacion.equalsIgnoreCase("n"));
 
 		for (Perro aux : listaDePerros) {
-			System.out.println("Raza: " + aux);
+			System.out.println(aux.toString());
 		}
+		
 		return perroCreado;
 	}
 }
