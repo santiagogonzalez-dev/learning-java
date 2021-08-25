@@ -52,5 +52,4 @@ public class RectanguloServicio {
 			System.out.println(); //Jump to the next row
 		}
 	}
-
 }
