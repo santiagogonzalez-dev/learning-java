@@ -5,21 +5,19 @@ package collections;
  */
 
 public class Perro {
-	
-	private String perro;
+	private String raza;
 
-	// Constructors
 	public Perro() {
 	}
-	public Perro(String perro) {
-		this.perro = perro;
+	public Perro(String raza) {
+		this.raza = raza;
 	}
 
-	// Getters and Setters for Perro
-	public String getPerro() {
-		return perro;
+	public String getRaza() {
+		return raza;
 	}
-	public void setPerro(String perro) {
-		this.perro = perro;
+	public void setRaza(String raza) {
+		this.raza = raza;
 	}
+
 }
