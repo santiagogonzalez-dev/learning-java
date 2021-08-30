@@ -6,13 +6,15 @@ import java.util.Scanner;
 /**
  * @author Santiago Gonzalez
  */
+
 public class PerroServicio {
 
 	private Scanner reader = new Scanner(System.in).useDelimiter("\n");
 
 	public Perro introducirRaza() {
 
-		ArrayList<String> listaDePerros = new ArrayList<String>();
+		// No hace falta hacer la aclaración en el segundo <>
+		ArrayList<String> listaDePerros = new ArrayList<>();
 
 		Perro perroCreado = new Perro();
 		String confirmacion = "n";
@@ -28,7 +30,7 @@ public class PerroServicio {
 		} while (confirmacion.equalsIgnoreCase("n"));
 
 		for (String listaDePerro : listaDePerros) {
-			System.out.println("Raza: " + listaDePerro);
+			System.out.println(listaDePerro);
 		}
 
 		return perroCreado;

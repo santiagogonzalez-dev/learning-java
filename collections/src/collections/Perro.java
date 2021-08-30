@@ -16,8 +16,9 @@ public class Perro {
 	public String getRaza() {
 		return raza;
 	}
+
 	public void setRaza(String raza) {
 		this.raza = raza;
 	}
-
+	
 }
