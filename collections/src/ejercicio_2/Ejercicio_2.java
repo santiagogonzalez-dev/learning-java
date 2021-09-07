@@ -1,5 +1,7 @@
 package ejercicio_2;
 
+import java.util.ArrayList;
+
 /**
  * @author Santiago Gonzalez
  **/
@@ -7,6 +9,7 @@ package ejercicio_2;
 public class Ejercicio_2 {
 
     public static void main(String[] args) {
+		ArrayList<Perro> perros = new ArrayList<>();
     }
 }
 /* Continuando el ejercicio anterior, después de mostrar los perros, al usuario se le
