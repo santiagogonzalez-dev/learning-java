@@ -1,4 +1,4 @@
-package collections;
+package ejercicio_1;
 
 /**
  * @author Santiago Gonzalez

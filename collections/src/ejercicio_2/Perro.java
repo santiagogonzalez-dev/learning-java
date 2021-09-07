@@ -1,4 +1,4 @@
-package collections;
+package ejercicio_2;
 
 /**
  * @author Santiago Gonzalez
@@ -7,7 +7,9 @@ package collections;
 public class Perro {
 	private String raza;
 
+	//Constructores
 	public Perro() {
+		//Constructor vacío
 	}
 	public Perro(String raza) {
 		this.raza = raza;
@@ -20,5 +22,4 @@ public class Perro {
 	public void setRaza(String raza) {
 		this.raza = raza;
 	}
-	
 }
