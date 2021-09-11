@@ -11,8 +11,6 @@ public class Integrador {
 //        System.out.println( (int) Math.log10(1000)+1);
         
 		// Capicua
-		// It ignores the negative numbers, and it also checks for
-		// the number given to not be null
 		Integer capicua = 2002;
 		System.out.println("El número es: " + capicua);
 		if (practica.numeroCapicua(capicua).equals(true)){
@@ -21,6 +19,8 @@ public class Integrador {
 			System.out.println("No es capicua");
 		}
 
+		// CarameloLandia
+		System.out.println("El prisioner al que le toca el caramelo podrido es: " + practica.prisioneroDulce(1, 3, 9));
 
         //Generar las variables necesarias para probar
         //ArrayList<String> medias = new ArrayList(Arrays.asList(new String[]{"A", "B", "C", "D","A", "C", "D", "A"}));

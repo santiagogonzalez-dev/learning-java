@@ -4,7 +4,6 @@ import java.util.List;
 
 public class Practica {
 
-    
 //    La función recibirá un numero x y deberá determinar si es capicúa o no. 
 //    Este deberá devolver verdadero(true) si es capicúa y falso(false) si no lo es. 
 //    Además deberemos contemplar los siguientes escenarios: 
@@ -13,17 +12,15 @@ public class Practica {
 //    Contemplar que el numero que llega puede ser null, si es así debe devolver false.
 //    @param num
 //    @return esPalindromo
-     
-    public Boolean numeroCapicua(Integer num) {
+	public Boolean numeroCapicua(Integer num) {
 		Boolean esPalindromo = false; // Started as false
 
 		// Confirm that the number given isn't null, and convert to absolute number.
-		try{
+		try {
 			// To ignore the (-) I will work with an absolute number
 			// And if it fails to convert it (because it's a null) it will catch ()
 			int absNum = Math.abs(num);
 
-//			esPalindromo = true;
 			Integer Count = 0;
 			while (absNum > 0) {
 				absNum = absNum / 10;
@@ -58,9 +55,8 @@ public class Practica {
 		}
 
 		return esPalindromo;
-    }
+	}
 
-    
 //    Estamos en caramelolandia, donde estan los peores ladrones de dulces. 
 //    Una vez al mes, se sienta una n cantidad de presos en ronda, contemplando 
 //    al preso que inicia la ronda, como el preso 0. 
@@ -72,11 +68,23 @@ public class Practica {
 //     @param cantidadCaramelos
 //     @param cantidadLadrones
 //     @return ladronQueLeTocoElCarameloPodrido
-     
-    public int prisioneroDulce(int inicio, int cantidadCaramelos, int cantidadLadrones) {
-        //Aca escribir la logica necesaria
-        return 0;
-    }
+	public int prisioneroDulce(int inicio, int cantidadCaramelos, int cantidadLadrones) {
+		//Aca escribir la logica necesaria
+
+		int resultado = 0;
+		int i = 0;
+		for (i = inicio; inicio < cantidadLadrones; i++) {
+			cantidadCaramelos--;
+			if (cantidadCaramelos == 0) {
+				resultado = i;
+				break;
+			}
+		}
+		if (i == cantidadLadrones) {
+			i = 0;
+		}
+		return i;
+	}
 
 //    En un universo paralelo, donde los habitantes son medias, existe un crucero de medias donde se sube una lista de medias. 
 //    Esta lista de tripulantes del crucero es una Collection de letras. 
@@ -88,9 +96,8 @@ public class Practica {
 //    Entonces la List que se debería retornar sería: A,B,C.
 //   @param pasajeros
 //   @return mediasAmigas
-    
-    public List<String> mediasAmigas(List<String> pasajeros) {
-        //Aca escribir la logica necesaria
-        return null;
-    }
+//	public List<String> mediasAmigas(List<String> pasajeros) {
+//		Aca escribir la logica necesaria
+//		return null;
+//	}
 }
