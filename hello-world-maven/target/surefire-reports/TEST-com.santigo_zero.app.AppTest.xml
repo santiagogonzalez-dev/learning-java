@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.santigo_zero.app.AppTest" time="0.037" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.santigo_zero.app.AppTest" time="0.024" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/home/st/.local/lib/sdkman/candidates/java/17.0.1-tem/lib"/>
-    <property name="sun.java.command" value="/home/st/.local/workspace/java/hello-world-maven/target/surefire/surefirebooter9291933907985266028.jar /home/st/.local/workspace/java/hello-world-maven/target/surefire 2021-12-30T03-04-58_094-jvmRun1 surefire9048944055553418163tmp surefire_013510048692199307367tmp"/>
+    <property name="sun.java.command" value="/home/st/.local/workspace/java/hello-world-maven/target/surefire/surefirebooter5583657624279945123.jar /home/st/.local/workspace/java/hello-world-maven/target/surefire 2021-12-30T11-19-44_609-jvmRun1 surefire6050643581382041943tmp surefire_08873121568614045504tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/st/.local/workspace/java/hello-world-maven/target/test-classes:/home/st/.local/workspace/java/hello-world-maven/target/classes:/home/st/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/st/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -25,18 +25,19 @@
     <property name="basedir" value="/home/st/.local/workspace/java/hello-world-maven"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/st/.local/workspace/java/hello-world-maven/target/surefire/surefirebooter9291933907985266028.jar"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/home/st/.local/workspace/java/hello-world-maven/target/surefire/surefirebooter5583657624279945123.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.1+12"/>
     <property name="user.name" value="st"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="5.15.11-zen1-1-zen"/>
+    <property name="os.version" value="5.15.12-arch1-1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="java.vendor.version" value="Temurin-17.0.1+12"/>
+    <property name="java.util.prefs.userRoot" value="/home/st/.config/java"/>
     <property name="localRepository" value="/home/st/.m2/repository"/>
     <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
     <property name="java.io.tmpdir" value="/tmp"/>
@@ -52,5 +53,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.santigo_zero.app.AppTest" time="0.002"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.santigo_zero.app.AppTest" time="0.001"/>
 </testsuite>
