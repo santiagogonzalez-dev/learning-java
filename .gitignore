@@ -74,5 +74,6 @@ buildNumber.properties
 .settings
 .apt_generated
 .apt_generated_tests
+.factorypath
 
 # End of https://www.toptal.com/developers/gitignore/api/maven,java,linux
