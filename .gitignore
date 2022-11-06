@@ -72,5 +72,7 @@ buildNumber.properties
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
 .settings
+.apt_generated
+.apt_generated_tests
 
 # End of https://www.toptal.com/developers/gitignore/api/maven,java,linux
